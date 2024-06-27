@@ -1,0 +1,18 @@
+TCS3200D contains four types of filters: red filter, green filter, blue filter, and clear with no filter. When the sensor is illuminated by a ray of light, the types of filters (blue, green, red, or clear) used by the device can be selected by two logic inputs, S2 and S3. Table 2 illustrates the relationship among S2, S3, and filter types.
+
+
+S2	S3	Filter type
+L	L	Red
+L	H	Blue
+H	L	Clear (no filter)
+H	H	Green
+
+
+TCS3200D outputs a square wave (50% duty cycle) with a frequency corresponding to light intensity and color, and the frequency is directly proportional to light intensity. The typical output frequency of TCS3200D is in a range of 2Hz to 500KHz. Users can control frequency values of 100%, 20%, and 2% by two programmable outputs, S0 and S1, as Table 3 shown.
+
+
+S0	S1	Output Frequency Scaling
+L	L	Power down
+L	H	2%
+H	L	20%
+H	H	100%
