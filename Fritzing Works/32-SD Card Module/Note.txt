@@ -1,0 +1,5 @@
+It is important to make setting while converting Audio to wav file.
+
+Bit resolution must be 8 bit
+
+Audio frequency must be 32000 hertz
